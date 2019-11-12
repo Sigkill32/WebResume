@@ -157,6 +157,7 @@ nav li {
 }
 .skills-exp .skills .skill-list {
   display: flex;
+  margin-bottom: 20px;
 }
 .skills-exp .skills .skill-list .skill {
   position: relative;
@@ -169,7 +170,7 @@ nav li {
   position: absolute;
   width: 30px;
   padding: 10px;
-  top: calc(50% - 20px);
+  top: calc(50% - 18px);
   left: calc(50% - 23px);
   font-weight: bold;
 }
@@ -486,6 +487,8 @@ nav li {
 }
 .contact-blog .contact-us .contact-form {
   width: 85%;
+  display: flex;
+  flex-direction: column;
 }
 .contact-blog .contact-us .contact-form input {
   padding: 10px 5px;
