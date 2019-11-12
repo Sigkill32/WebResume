@@ -145,10 +145,12 @@ nav li {
   padding: 0 50px;
   margin-top: 40px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .skills-exp .skills {
   width: 40%;
+  margin-left: 40px;
 }
 .skills-exp .skills h1 {
   margin-bottom: 10px;
@@ -158,6 +160,7 @@ nav li {
 }
 .skills-exp .skills .skill-list .skill {
   position: relative;
+  text-align: center;
 }
 .skills-exp .skills .skill-list .skill img {
   width: 100%;
@@ -169,12 +172,6 @@ nav li {
   top: calc(50% - 20px);
   left: calc(50% - 23px);
   font-weight: bold;
-}
-.skills-exp .skills .skill-list .skill p {
-  position: absolute;
-  bottom: 10px;
-  left: 40px;
-  color: black;
 }
 .skills-exp .skills .skill-list .wordpress {
   color: #38b64b;
