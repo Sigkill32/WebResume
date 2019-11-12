@@ -107,9 +107,7 @@ nav {
   width: 5px;
   height: 5px;
   right: calc(50% - 4px);
-  background-color: green;
-  border: 4px solid green;
-  //   top: 15px;
+  border: 4px solid;
   border-radius: 50%;
   z-index: 1;
 }
@@ -117,7 +115,7 @@ nav {
 .right {
   right: -55%;
   &::after {
-    left: calc(-7% + 5px);
+    left: calc(-7% + 7px);
   }
 }
 
@@ -550,7 +548,6 @@ nav {
 
       .name-email {
         display: flex;
-        // border: solid;
         .name {
           width: 50%;
           margin-right: 7px;
@@ -660,16 +657,15 @@ nav {
       border-radius: 3px;
       input {
         width: 80%;
-        padding: 5px 0;
+        padding: 10px 0;
         border: none;
-        // outline: none;
         margin-left: 1%;
       }
     }
     button {
       background-color: #6e41fe;
       color: white;
-      padding: 9px 25px;
+      padding: 11px 20px;
       border: 1px solid #6e41fe;
       border-radius: 2px;
       font-size: 10px;

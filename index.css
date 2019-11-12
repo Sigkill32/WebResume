@@ -101,8 +101,7 @@ nav li {
   width: 5px;
   height: 5px;
   right: calc(50% - 4px);
-  background-color: green;
-  border: 4px solid green;
+  border: 4px solid;
   border-radius: 50%;
   z-index: 1;
 }
@@ -111,7 +110,7 @@ nav li {
   right: -55%;
 }
 .right::after {
-  left: calc(-7% + 5px);
+  left: calc(-7% + 7px);
 }
 
 .left {
@@ -611,14 +610,14 @@ nav li {
 }
 .footer .news-letter .newsletter-email input {
   width: 80%;
-  padding: 5px 0;
+  padding: 10px 0;
   border: none;
   margin-left: 1%;
 }
 .footer .news-letter button {
   background-color: #6e41fe;
   color: white;
-  padding: 9px 25px;
+  padding: 11px 20px;
   border: 1px solid #6e41fe;
   border-radius: 2px;
   font-size: 10px;
