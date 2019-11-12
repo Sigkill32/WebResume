@@ -337,6 +337,7 @@ nav li {
   width: 45%;
   background-color: white;
   border-radius: 50px;
+  display: flex;
 }
 .consult .consult-form .email input {
   width: 80%;
