@@ -13,6 +13,10 @@ p {
   color: #4d4d4d;
 }
 
+input {
+  box-sizing: border-box;
+}
+
 nav {
   margin-top: 30px;
   display: flex;
@@ -549,12 +553,13 @@ nav {
 
       .name-email {
         display: flex;
+        justify-content: space-between;
         .name {
-          width: 50%;
-          margin-right: 7px;
+          width: 49%;
+          // margin-right: 7px;
         }
         .email {
-          width: 50%;
+          width: 49%;
         }
       }
       .sub {
