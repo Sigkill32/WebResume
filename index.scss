@@ -160,11 +160,15 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  .work-summary {
+    text-align: center;
+  }
   .skills {
     width: 40%;
     margin-left: 40px;
     h1 {
       margin-bottom: 10px;
+      text-align: center;
     }
     .skill-list {
       display: flex;
@@ -205,6 +209,10 @@ nav {
 
   .work-experience {
     width: 45%;
+
+    h1 {
+      text-align: center;
+    }
 
     .exp-card {
       border: 0.5px solid;
