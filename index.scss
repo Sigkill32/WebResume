@@ -661,6 +661,7 @@ nav {
       border: 1px solid #eeeeee;
       margin: auto;
       border-radius: 3px;
+      display: flex;
       input {
         width: 80%;
         padding: 10px 0;
@@ -677,7 +678,7 @@ nav {
       font-size: 10px;
       font-weight: bold;
       cursor: pointer;
-      width: 18%;
+      width: 19%;
     }
   }
 
