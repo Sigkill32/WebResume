@@ -110,7 +110,7 @@ nav li {
   right: -55%;
 }
 .right::after {
-  left: calc(-7% + 7px);
+  left: calc(-7% + 6px);
 }
 
 .left {
