@@ -188,7 +188,7 @@ nav li {
   top: calc(50% - 18px);
   left: calc(50% - 23px);
   font-weight: bold;
-  font-size: 100%;
+  font-size: 1vw;
 }
 .skills-exp .skills .skill-list .wordpress {
   color: #38b64b;
@@ -361,21 +361,23 @@ nav li {
 }
 .consult .consult-form .email {
   width: 45%;
-  background-color: white;
-  border-radius: 50px;
-  display: flex;
 }
-.consult .consult-form .email input {
+.consult .consult-form .email .email-form {
+  display: flex;
+  background-color: white;
+  border-radius: 24px;
+}
+.consult .consult-form .email .email-form input {
   width: 80%;
-  margin-left: 2%;
-  padding: 15px 0;
-  border: none;
+  padding: 15px 10px;
+  border-radius: 24px 0 0 24px;
+  border: 1px solid white;
   outline: none;
 }
-.consult .consult-form .email button {
-  width: 18%;
+.consult .consult-form .email .email-form button {
+  width: 20%;
   padding: 15px 0;
-  border-radius: 50px;
+  border-radius: 24px;
   border: 1px solid;
   background-color: #6e41fe;
   color: white;
