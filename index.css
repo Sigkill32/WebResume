@@ -686,6 +686,7 @@ nav li {
 }
 .testimonial-pagination .pages p:nth-child(2) {
   background-color: #6e41ff;
+  padding: 6px;
 }
 
 /*# sourceMappingURL=index.css.map */
