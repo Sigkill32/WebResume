@@ -552,6 +552,9 @@ nav {
         margin-right: 10px;
         font-weight: bold;
         cursor: pointer;
+        -webkit-box-shadow: -1px 13px 5px 0px rgba(230, 230, 230, 1);
+        -moz-box-shadow: -1px 13px 5px 0px rgba(230, 230, 230, 1);
+        box-shadow: -1px 13px 5px 0px rgba(230, 230, 230, 1);
       }
 
       .name-email {
