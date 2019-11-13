@@ -227,14 +227,26 @@ nav li {
 .skills-exp .work-experience .js {
   border-color: #41b852;
 }
+.skills-exp .work-experience .js h4 {
+  color: #41b852;
+}
 .skills-exp .work-experience .wp {
   border-color: #f46523;
+}
+.skills-exp .work-experience .wp h4 {
+  color: #f46523;
 }
 .skills-exp .work-experience .ux {
   border-color: #6e41fe;
 }
+.skills-exp .work-experience .ux h4 {
+  color: #6e41fe;
+}
 .skills-exp .work-experience .f {
   border-color: #ec008b;
+}
+.skills-exp .work-experience .f h4 {
+  color: #ec008b;
 }
 
 .skills-list {
