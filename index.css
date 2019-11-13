@@ -28,8 +28,13 @@ nav ul {
   display: flex;
 }
 nav li {
-  margin-right: 15px;
+  margin-right: 25px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.social-ico {
+  margin-left: 50px;
 }
 
 .social img {
