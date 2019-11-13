@@ -481,7 +481,7 @@ nav li {
   position: static;
 }
 .testimonial .person-card .person-info {
-  width: 50%;
+  width: 60%;
   margin: auto;
   margin-top: 20%;
   padding: 20px;
@@ -675,7 +675,7 @@ nav li {
 }
 
 .testimonial-pagination {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .testimonial-pagination .pages p {
   margin-right: 3px;
