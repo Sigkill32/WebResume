@@ -180,6 +180,7 @@ nav li {
   top: calc(50% - 18px);
   left: calc(50% - 23px);
   font-weight: bold;
+  font-size: 100%;
 }
 .skills-exp .skills .skill-list .wordpress {
   color: #38b64b;
