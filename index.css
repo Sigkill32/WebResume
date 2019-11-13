@@ -351,13 +351,15 @@ nav li {
   outline: none;
 }
 .consult .consult-form .email button {
-  width: 17.4%;
+  width: 18%;
   padding: 15px 0;
   border-radius: 50px;
   border: 1px solid;
   background-color: #6e41fe;
   color: white;
   font-weight: bold;
+  outline: none;
+  cursor: pointer;
 }
 
 .services-portfolio {
@@ -385,7 +387,7 @@ nav li {
   cursor: pointer;
 }
 .services-portfolio .services-section .service-card img {
-  width: 15%;
+  width: 25%;
 }
 .services-portfolio .services-section .service-card h4 {
   margin: 10px 0;
