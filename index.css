@@ -674,4 +674,18 @@ nav li {
   left: calc((100% - 268px) / 2);
 }
 
+.testimonial-pagination {
+  margin-top: 5px;
+}
+.testimonial-pagination .pages p {
+  margin-right: 3px;
+  display: inline-block;
+  background-color: #eeeeee;
+  border-radius: 50%;
+  padding: 5px;
+}
+.testimonial-pagination .pages p:nth-child(2) {
+  background-color: #6e41ff;
+}
+
 /*# sourceMappingURL=index.css.map */

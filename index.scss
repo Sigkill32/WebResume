@@ -727,3 +727,19 @@ nav {
     }
   }
 }
+
+.testimonial-pagination {
+  margin-top: 5px;
+  .pages {
+    p {
+      margin-right: 3px;
+      display: inline-block;
+      background-color: #eeeeee;
+      border-radius: 50%;
+      padding: 5px;
+      &:nth-child(2) {
+        background-color: #6e41ff;
+      }
+    }
+  }
+}
