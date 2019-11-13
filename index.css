@@ -333,7 +333,8 @@ nav li {
 
 .consult {
   padding: 40px;
-  background-color: #f5f9fc;
+  background: #fdf9f8;
+  background: linear-gradient(90deg, #fdf9f8 0%, #fdf9f6 31%, #fefaf7 50%, #f3f8fc 100%);
   margin-top: 40px;
 }
 .consult h3 {
