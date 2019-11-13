@@ -119,7 +119,8 @@ nav {
 .right {
   right: -55%;
   &::after {
-    left: calc(-7% + 6px);
+    // left: calc(-7% + 6px);
+    right: 104.5%;
   }
 }
 

@@ -114,7 +114,7 @@ nav li {
   right: -55%;
 }
 .right::after {
-  left: calc(-7% + 6px);
+  right: 104.5%;
 }
 
 .left {
