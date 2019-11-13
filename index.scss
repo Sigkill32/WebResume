@@ -505,6 +505,14 @@ nav {
       z-index: 1;
       left: calc((100% - 94px) / 2);
     }
+
+    .quote {
+      border: none;
+      border-radius: 0;
+      width: 5%;
+      position: static;
+    }
+
     .person-info {
       width: 50%;
       margin: auto;
@@ -518,7 +526,7 @@ nav {
       box-shadow: 3px 23px 27px 1px rgba(153, 153, 153, 1);
 
       .designation {
-        margin-bottom: 40px;
+        margin-bottom: 10px;
       }
     }
   }

@@ -474,6 +474,12 @@ nav li {
   z-index: 1;
   left: calc((100% - 94px) / 2);
 }
+.testimonial .person-card .quote {
+  border: none;
+  border-radius: 0;
+  width: 5%;
+  position: static;
+}
 .testimonial .person-card .person-info {
   width: 50%;
   margin: auto;
@@ -487,7 +493,7 @@ nav li {
   box-shadow: 3px 23px 27px 1px #999999;
 }
 .testimonial .person-card .person-info .designation {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .contact-blog {
