@@ -426,6 +426,7 @@ nav {
   padding: 40px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   .services-section {
     width: 45%;
     text-align: center;
@@ -560,6 +561,7 @@ nav {
   margin-bottom: 7vh;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   background-color: #fbfaff;
   .contact-us {
     width: 45%;
@@ -702,7 +704,7 @@ nav {
     }
 
     .newsletter-email {
-      width: 60%;
+      width: 80%;
       border: 1px solid #eeeeee;
       margin: auto;
       border-radius: 3px;
@@ -764,6 +766,55 @@ nav {
         background-color: #6e41ff;
         padding: 6px;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .skills-exp {
+    .skills {
+      padding-top: 80px;
+      width: 100%;
+
+      .skill-list {
+        .skill {
+          span {
+            font-size: 20px;
+            top: calc(50% - 4px);
+            left: calc(50% - 23px);
+            width: 40px;
+          }
+        }
+      }
+    }
+
+    .work-experience {
+      padding-top: 80px;
+      width: 100%;
+    }
+  }
+
+  .services-portfolio {
+    .services-section {
+      padding-top: 80px;
+      width: 100%;
+    }
+
+    .portfolio-section {
+      padding-top: 80px;
+      width: 100%;
+    }
+  }
+
+  .contact-blog {
+    .contact-us {
+      padding-top: 80px;
+      width: 100%;
+    }
+
+    .my-blog {
+      padding-top: 80px;
+      width: 100%;
     }
   }
 }

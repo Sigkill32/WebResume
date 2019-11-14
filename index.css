@@ -392,6 +392,7 @@ nav li {
   padding: 40px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .services-portfolio .services-section {
   width: 45%;
@@ -518,6 +519,7 @@ nav li {
   margin-bottom: 7vh;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   background-color: #fbfaff;
 }
 .contact-blog .contact-us {
@@ -645,7 +647,7 @@ nav li {
   margin-bottom: 20px;
 }
 .footer .news-letter .newsletter-email {
-  width: 60%;
+  width: 80%;
   border: 1px solid #eeeeee;
   margin: auto;
   border-radius: 3px;
@@ -704,6 +706,41 @@ nav li {
 .testimonial-pagination .pages p:nth-child(2) {
   background-color: #6e41ff;
   padding: 6px;
+}
+
+@media screen and (max-width: 1370px) {
+  .skills-exp .skills {
+    padding-top: 80px;
+    width: 100%;
+  }
+  .skills-exp .skills .skill-list .skill span {
+    font-size: 20px;
+    top: calc(50% - 4px);
+    left: calc(50% - 23px);
+    width: 40px;
+  }
+  .skills-exp .work-experience {
+    padding-top: 80px;
+    width: 100%;
+  }
+
+  .services-portfolio .services-section {
+    padding-top: 80px;
+    width: 100%;
+  }
+  .services-portfolio .portfolio-section {
+    padding-top: 80px;
+    width: 100%;
+  }
+
+  .contact-blog .contact-us {
+    padding-top: 80px;
+    width: 100%;
+  }
+  .contact-blog .my-blog {
+    padding-top: 80px;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
