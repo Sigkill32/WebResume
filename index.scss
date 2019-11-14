@@ -6,6 +6,8 @@
 body {
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 p {
@@ -815,6 +817,12 @@ nav {
     .my-blog {
       padding-top: 80px;
       width: 100%;
+    }
+  }
+
+  .footer {
+    .news-letter {
+      padding: 30px;
     }
   }
 }
